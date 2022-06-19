@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "browserslist": "> 0.3%, last 3 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "clean": "rimraf dist .parcel-cache"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
