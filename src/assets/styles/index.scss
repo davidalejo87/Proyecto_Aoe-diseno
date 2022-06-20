@@ -42,6 +42,10 @@ main{
     grid-template-columns:1vh ;
     grid-template-rows:1vh ;
 
+    fieldset{
+        border: none;
+    }
+
     input{
         margin-bottom: 1em;
         font-size: 26px;
